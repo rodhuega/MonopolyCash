@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:l="clr-namespace:AiForms.Layouts;assembly=AiForms.Layouts"
+             x:Class="MonopolyCash.NombresPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" Padding="20">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Cambia los nombres" Margin="0,15"></Label>
+                    <Button Text="Actualizar" Clicked="Actualizar_Clicked" ></Button>
+                </StackLayout>
+                <l:WrapLayout x:Name="cambiarNombresLayout" HorizontalOptions="FillAndExpand" Spacing="10">
+                    <!--Aqui iran las label y entry de cada jugador segun la cantidad que haya de ellos-->
+                </l:WrapLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

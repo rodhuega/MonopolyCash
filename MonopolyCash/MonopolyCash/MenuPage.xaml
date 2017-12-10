@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonopolyCash.MenuPage">
+    <MasterDetailPage.Master>
+        <ContentPage Padding="5" Title="Mi app" Icon="">
+            <StackLayout Orientation="Vertical">
+                <ListView x:Name="ListaMenu" ItemSelected="ListaMenu_ItemSelected">
+                    <!--Se mostrara cada pagina con su tituto y detail-->
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding MenuTitle}" Detail="{Binding MenuDetail}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

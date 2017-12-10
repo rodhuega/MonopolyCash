@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:l="clr-namespace:AiForms.Layouts;assembly=AiForms.Layouts"
+             xmlns:local="clr-namespace:MonopolyCash"
+             x:Class="MonopolyCash.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="10" Orientation="Vertical" BackgroundColor="CadetBlue" Spacing="10">
+            <Image Source="monocash.png"></Image>
+            <Label Text="Numero de jugadores" TextColor="White"></Label>
+            <Picker x:Name="pickerNJugadores" SelectedIndexChanged="pickerNJugadores_Changed" BackgroundColor="White" >
+                <Picker.Items>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                </Picker.Items>
+            </Picker>
+
+                <StackLayout Orientation="Horizontal">
+                <Button x:Name="buttonActualizar" Text="Actualizar" HorizontalOptions="FillAndExpand" Clicked="buttonActualizar_Clicked"></Button>
+                    <Button x:Name="buttonReiniciar" Text="Reiniciar" HorizontalOptions="FillAndExpand" Clicked="buttonReiniciar_Clicked"></Button>
+                </StackLayout>
+            <l:WrapLayout x:Name="jugadoresLayout" HorizontalOptions="FillAndExpand" Spacing="10" >
+                <!--Aqui es donde iran todos los StackLayout de los jugadores que se meteran mediante c#-->
+            </l:WrapLayout>
+            <StackLayout x:Name="layoutTransacciones">
+                <Label Text="Transacciones"></Label>
+                <Picker x:Name="pickerTran1" ItemsSource="{Binding jugadores}" ItemDisplayBinding="{Binding nombre}"></Picker>
+                <Entry Placeholder="Cantidad" x:Name="entryCantidadTransferencia" Keyboard="Numeric"></Entry>
+                <Picker x:Name="pickerTran2" ItemsSource="{Binding jugadores}" ItemDisplayBinding="{Binding nombre}"></Picker>
+                <Button x:Name="buttonAceptar" Text="Aceptar" Clicked="buttonAceptar_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
