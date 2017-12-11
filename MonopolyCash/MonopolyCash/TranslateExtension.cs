@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace MonopolyCash
 {
     /// <summary>
-    /// Clase usada para la traduccion de strings en xaml
+    /// Clase usada para la traduccion de strings en XAML
     /// </summary>
 
     [ContentProperty("Text")]
