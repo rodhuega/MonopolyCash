@@ -8,7 +8,7 @@
     <ScrollView>
         <StackLayout Padding="10" Orientation="Vertical" BackgroundColor="CadetBlue" Spacing="10">
             <Image Source="monocash.png"></Image>
-            <Label Text="Numero de jugadores" TextColor="White"></Label>
+            <Label Text="{local:Translate numero_de_jugadores}" TextColor="White"></Label>
             <Picker x:Name="pickerNJugadores" SelectedIndexChanged="pickerNJugadores_Changed" BackgroundColor="White" >
                 <Picker.Items>
                     <x:String>2</x:String>

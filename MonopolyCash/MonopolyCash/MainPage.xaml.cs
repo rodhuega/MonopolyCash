@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MonopolyCash.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,10 +34,10 @@ namespace MonopolyCash
             jugadoresLayout.Children.Clear();
             for (int i = 1; i <= final; i++)
             {
-                Label labelNombreJugador = new Label() { Text = "Jugador " + i };
+                Label labelNombreJugador = new Label() { Text = AppResource.jugador+ " " + i };
                 Label labelCantidadJugador = new Label() { Text = "0" };
                 Entry entryModCantidad = new Entry() { Placeholder = "Cantidad", Keyboard = Keyboard.Telephone };
-                jugadores.Add(new Jugador("Jugador " + i, i, entryModCantidad, labelCantidadJugador, labelNombreJugador));
+                jugadores.Add(new Jugador(AppResource.jugador + " " + i, i, entryModCantidad, labelCantidadJugador, labelNombreJugador));
             }
             ActualizarGui();
         }
