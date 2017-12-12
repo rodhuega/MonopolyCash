@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MonopolyCash.Resources;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
@@ -52,7 +53,7 @@ namespace MonopolyCash
             this.entryMod = entryMod;
             this.labelCantidad = labelCantidad;
             this.labelNombre = labelNombre;
-            cambiarNombre = new Entry() { Placeholder = "Nuevo Nombre" };
+            cambiarNombre = new Entry() { Placeholder = AppResource.nuevo_nombre};
         }
     }
 }

@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MonopolyCash"
              x:Class="MonopolyCash.AboutPage">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical" Padding="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
                 <Image x:Name="imagenAcercaDe" Source="monocash.png"></Image>
                 <Label
-                    Text="MonoPolyCash es una aplicacion que te permite llevar las cuentas mientras juegas al juegos de mesa MonoPoly">
+                    Text="{local:Translate explicacion}">
                 </Label>
-                <Label Text="Creditos:"></Label>
-                <Label Text="Desarrollador: Rodrigo Huerta Gañán"></Label>
-                <Label Text="Agradecimientos: Miguel García Valero"></Label>
+                <Label Text="{local:Translate creditos}"></Label>
+                <Label Text="{local:Translate desarrollador}"></Label>
+                <Label Text="{local:Translate agradecimientos}"></Label>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

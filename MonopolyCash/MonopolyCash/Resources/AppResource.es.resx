@@ -117,10 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="acercaDe" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="acercaDe_detail" xml:space="preserve">
+    <value>Informacion sobre la APP</value>
+  </data>
+  <data name="actualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="agradecimientos" xml:space="preserve">
+    <value>Agradecimientos: MIguel García Valero</value>
+  </data>
+  <data name="cambiar_los_nombres" xml:space="preserve">
+    <value>Cambiar los nombres</value>
+  </data>
+  <data name="cambiar_nombre" xml:space="preserve">
+    <value>Cambiar Nombre</value>
+  </data>
+  <data name="cambiar_nombres" xml:space="preserve">
+    <value>Cambiar nombres</value>
+  </data>
+  <data name="cambiar_nombre_detail" xml:space="preserve">
+    <value>Pagina para cambiar los nombres</value>
+  </data>
+  <data name="cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="creditos" xml:space="preserve">
+    <value>Creditos:</value>
+  </data>
+  <data name="desarrollador" xml:space="preserve">
+    <value>Desarollador: Rodrigo Huerta Gañán</value>
+  </data>
+  <data name="explicacion" xml:space="preserve">
+    <value>MonoPolyCash es una aplicacion que te permite llevar las cuentas mientras juegas al juego de mesa MonoPoly</value>
+  </data>
+  <data name="inicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="inicio_detail" xml:space="preserve">
+    <value>Pagina Principal</value>
+  </data>
   <data name="jugador" xml:space="preserve">
     <value>Jugador</value>
   </data>
+  <data name="nuevo_nombre" xml:space="preserve">
+    <value>Nuevo Nombre</value>
+  </data>
   <data name="numero_de_jugadores" xml:space="preserve">
     <value>Numero de jugadores</value>
+  </data>
+  <data name="reiniciar" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="transacciones" xml:space="preserve">
+    <value>Transacciones</value>
   </data>
 </root>

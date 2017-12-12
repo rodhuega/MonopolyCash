@@ -36,7 +36,7 @@ namespace MonopolyCash
             {
                 Label labelNombreJugador = new Label() { Text = AppResource.jugador+ " " + i };
                 Label labelCantidadJugador = new Label() { Text = "0" };
-                Entry entryModCantidad = new Entry() { Placeholder = "Cantidad", Keyboard = Keyboard.Telephone };
+                Entry entryModCantidad = new Entry() { Placeholder = AppResource.cantidad, Keyboard = Keyboard.Telephone };
                 jugadores.Add(new Jugador(AppResource.jugador + " " + i, i, entryModCantidad, labelCantidadJugador, labelNombreJugador));
             }
             ActualizarGui();

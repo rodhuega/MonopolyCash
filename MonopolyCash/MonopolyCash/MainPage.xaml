@@ -22,18 +22,18 @@
             </Picker>
 
                 <StackLayout Orientation="Horizontal">
-                <Button x:Name="buttonActualizar" Text="Actualizar" HorizontalOptions="FillAndExpand" Clicked="buttonActualizar_Clicked"></Button>
-                    <Button x:Name="buttonReiniciar" Text="Reiniciar" HorizontalOptions="FillAndExpand" Clicked="buttonReiniciar_Clicked"></Button>
+                <Button x:Name="buttonActualizar" Text="{local:Translate actualizar}" HorizontalOptions="FillAndExpand" Clicked="buttonActualizar_Clicked"></Button>
+                    <Button x:Name="buttonReiniciar" Text="{local:Translate reiniciar}" HorizontalOptions="FillAndExpand" Clicked="buttonReiniciar_Clicked"></Button>
                 </StackLayout>
             <l:WrapLayout x:Name="jugadoresLayout" HorizontalOptions="FillAndExpand" Spacing="10" >
                 <!--Aqui es donde iran todos los StackLayout de los jugadores que se meteran mediante c#-->
             </l:WrapLayout>
             <StackLayout x:Name="layoutTransacciones">
-                <Label Text="Transacciones"></Label>
+                <Label Text="{local:Translate transacciones}"></Label>
                 <Picker x:Name="pickerTran1" ItemsSource="{Binding jugadores}" ItemDisplayBinding="{Binding nombre}"></Picker>
-                <Entry Placeholder="Cantidad" x:Name="entryCantidadTransferencia" Keyboard="Numeric"></Entry>
+                <Entry Placeholder="{local:Translate cantidad}" x:Name="entryCantidadTransferencia" Keyboard="Numeric"></Entry>
                 <Picker x:Name="pickerTran2" ItemsSource="{Binding jugadores}" ItemDisplayBinding="{Binding nombre}"></Picker>
-                <Button x:Name="buttonAceptar" Text="Aceptar" Clicked="buttonAceptar_Clicked"></Button>
+                <Button x:Name="buttonAceptar" Text="{local:Translate aceptar}" Clicked="buttonAceptar_Clicked"></Button>
             </StackLayout>
         </StackLayout>
     </ScrollView>

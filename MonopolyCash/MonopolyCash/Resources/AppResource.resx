@@ -117,10 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="acercaDe" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="acercaDe_detail" xml:space="preserve">
+    <value>Information about the app</value>
+  </data>
+  <data name="actualizar" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="agradecimientos" xml:space="preserve">
+    <value>Special Thanks: Miguel Garcia Valero</value>
+  </data>
+  <data name="cambiar_nombre" xml:space="preserve">
+    <value>Change Name</value>
+  </data>
+  <data name="cambiar_nombres" xml:space="preserve">
+    <value>Change names</value>
+  </data>
+  <data name="cambiar_nombre_detail" xml:space="preserve">
+    <value>Page where you can change names</value>
+  </data>
+  <data name="cantidad" xml:space="preserve">
+    <value>amount</value>
+  </data>
+  <data name="creditos" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="desarrollador" xml:space="preserve">
+    <value>Developer: Rodrigo Huerta Gañán</value>
+  </data>
+  <data name="explicacion" xml:space="preserve">
+    <value>MonopolyCash is an app that allows you to know how much money has each player while you are playing Monopoly</value>
+  </data>
+  <data name="inicio" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="inicio_detail" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
   <data name="jugador" xml:space="preserve">
     <value>Player</value>
   </data>
+  <data name="nuevo_nombre" xml:space="preserve">
+    <value>New Name</value>
+  </data>
   <data name="numero_de_jugadores" xml:space="preserve">
     <value>Number of players</value>
+  </data>
+  <data name="reiniciar" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="transacciones" xml:space="preserve">
+    <value>Transactions</value>
   </data>
 </root>

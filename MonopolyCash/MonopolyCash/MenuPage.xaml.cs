@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MonopolyCash.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,9 +29,9 @@ namespace MonopolyCash
             //Se crea la lista que contiene las paginas que hay en la app y se le asigna a un ListView que mostrarta el Titulo y el Detail mediante binding
             menu = new List<Menu>()
             {
-                new Menu{MenuPage=new MainPage(),MenuTitle="Inicio", MenuDetail="Pagina Principal"},
-                new Menu{MenuPage=new NombresPage(),MenuTitle="Cambiar Nombres", MenuDetail="Pagina para cambiar los nombres"},
-                new Menu{MenuPage=new AboutPage(),MenuTitle="Acerca de", MenuDetail="Informacion sobre la APp"}
+                new Menu{MenuPage=new MainPage(),MenuTitle=AppResource.inicio, MenuDetail=AppResource.inicio_detail},
+                new Menu{MenuPage=new NombresPage(),MenuTitle=AppResource.cambiar_nombre, MenuDetail=AppResource.cambiar_nombre_detail},
+                new Menu{MenuPage=new AboutPage(),MenuTitle=AppResource.acercaDe, MenuDetail=AppResource.acercaDe_detail}
             };
             ListaMenu.ItemsSource = menu;
             //Inicialmente va a la MainPage

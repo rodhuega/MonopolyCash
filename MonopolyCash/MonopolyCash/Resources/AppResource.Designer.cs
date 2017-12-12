@@ -61,6 +61,132 @@ namespace MonopolyCash.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a OK.
+        /// </summary>
+        internal static string aceptar {
+            get {
+                return ResourceManager.GetString("aceptar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a About.
+        /// </summary>
+        internal static string acercaDe {
+            get {
+                return ResourceManager.GetString("acercaDe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Information about the app.
+        /// </summary>
+        internal static string acercaDe_detail {
+            get {
+                return ResourceManager.GetString("acercaDe_detail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Update.
+        /// </summary>
+        internal static string actualizar {
+            get {
+                return ResourceManager.GetString("actualizar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Special Thanks: Miguel Garcia Valero.
+        /// </summary>
+        internal static string agradecimientos {
+            get {
+                return ResourceManager.GetString("agradecimientos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change Name.
+        /// </summary>
+        internal static string cambiar_nombre {
+            get {
+                return ResourceManager.GetString("cambiar_nombre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Page where you can change names.
+        /// </summary>
+        internal static string cambiar_nombre_detail {
+            get {
+                return ResourceManager.GetString("cambiar_nombre_detail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change names.
+        /// </summary>
+        internal static string cambiar_nombres {
+            get {
+                return ResourceManager.GetString("cambiar_nombres", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a amount.
+        /// </summary>
+        internal static string cantidad {
+            get {
+                return ResourceManager.GetString("cantidad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Credits:.
+        /// </summary>
+        internal static string creditos {
+            get {
+                return ResourceManager.GetString("creditos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Developer: Rodrigo Huerta Gañán.
+        /// </summary>
+        internal static string desarrollador {
+            get {
+                return ResourceManager.GetString("desarrollador", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a MonopolyCash is an app that allows you to know how much money has each player while you are playing Monopoly.
+        /// </summary>
+        internal static string explicacion {
+            get {
+                return ResourceManager.GetString("explicacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Home.
+        /// </summary>
+        internal static string inicio {
+            get {
+                return ResourceManager.GetString("inicio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Main Page.
+        /// </summary>
+        internal static string inicio_detail {
+            get {
+                return ResourceManager.GetString("inicio_detail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Player.
         /// </summary>
         internal static string jugador {
@@ -70,11 +196,38 @@ namespace MonopolyCash.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a New Name.
+        /// </summary>
+        internal static string nuevo_nombre {
+            get {
+                return ResourceManager.GetString("nuevo_nombre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Number of players.
         /// </summary>
         internal static string numero_de_jugadores {
             get {
                 return ResourceManager.GetString("numero_de_jugadores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Restart.
+        /// </summary>
+        internal static string reiniciar {
+            get {
+                return ResourceManager.GetString("reiniciar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Transactions.
+        /// </summary>
+        internal static string transacciones {
+            get {
+                return ResourceManager.GetString("transacciones", resourceCulture);
             }
         }
     }
